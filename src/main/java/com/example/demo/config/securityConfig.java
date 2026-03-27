@@ -16,14 +16,14 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
-import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
-import org.springframework.stereotype.Component;
-import org.springframework.web.cors.CorsConfiguration;
-import org.springframework.web.cors.CorsConfigurationSource;
-import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+// import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+ import org.springframework.stereotype.Component;
+// import org.springframework.web.cors.CorsConfiguration;
+// import org.springframework.web.cors.CorsConfigurationSource;
+// import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
-import com.example.demo.security.jwtFilter;
-import com.example.demo.service.CustomUserDetailService;
+// import com.example.demo.security.jwtFilter;
+// import com.example.demo.service.CustomUserDetailService;
 
 @Component
 @Configuration
@@ -32,7 +32,7 @@ import com.example.demo.service.CustomUserDetailService;
 public class securityConfig {
 
      @Autowired
-    private jwtFilter JwtFilter;
+  //  private jwtFilter JwtFilter;
     
  //@Bean
 //public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
